@@ -1,0 +1,22 @@
+{
+  "name": "keryx-browser",
+  "productName": "Keryx",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Keryx — минималистичный тёмный браузер на Electron для Windows",
+  "main": "main.js",
+  "author": "Keryx",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "dist": "electron-builder --win --x64"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^26.18.0"
+  }
+}
